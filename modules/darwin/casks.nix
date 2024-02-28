@@ -7,7 +7,6 @@ _:
 
   # Communication Tools
   "discord"
-  "notion"
   "slack"
   "telegram"
   "zoom"
@@ -22,5 +21,4 @@ _:
   "raycast"
 
   # Browsers
-  "google-chrome"
 ]
