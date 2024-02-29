@@ -4,6 +4,8 @@ _:
   # Development Tools
   "homebrew/cask/docker"
   "visual-studio-code"
+  "wireshark"
+  "rapidapi"
 
   # Communication Tools
   "discord"
@@ -13,10 +15,13 @@ _:
 
   # Utility Tools
   "syncthing"
+  "appcleaner"
 
   # Entertainment Tools
   "vlc"
-
+  "steam"
+  "spotify"
+  "pocket-casts"
   # Productivity Tools
   "raycast"
 

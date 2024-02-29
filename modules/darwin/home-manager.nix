@@ -35,8 +35,8 @@ in
     # $ mas search <app name>
     #
     masApps = {
-      "1password" = 1333542190;
-      "wireguard" = 1451685025;
+      "amorphousdiskmark" = 1168254295;
+      "tailscale" = 1475387142;
     };
   };
 

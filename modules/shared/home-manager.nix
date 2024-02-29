@@ -74,11 +74,11 @@ let name = "Sean Goller";
     };
     extraConfig = {
       init.defaultBranch = "main";
-      core = { 
+      core = {
 	    editor = "vim";
         autocrlf = "input";
       };
-      commit.gpgsign = true;
+      commit.gpgsign = false;
       pull.rebase = true;
       rebase.autoStash = true;
     };
@@ -202,11 +202,18 @@ let name = "Sean Goller";
       };
 
       window = {
+        class = {
+          instance = "Alacritty";
+         general = "Alacritty";
+        };
+        decorations = "full";
+        dynamic_padding = true;
         opacity = 1.0;
         padding = {
           x = 24;
           y = 24;
         };
+        title = "Terminal";
       };
 
       font = {
@@ -220,13 +227,6 @@ let name = "Sean Goller";
         ];
       };
 
-      dynamic_padding = true;
-      decorations = "full";
-      title = "Terminal";
-      class = {
-        instance = "Alacritty";
-        general = "Alacritty";
-      };
 
       colors = {
         primary = {

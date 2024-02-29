@@ -11,6 +11,7 @@ with pkgs; [
   coreutils
   killall
   neofetch
+  nix-tree
   openssh
   sqlite
   wget
